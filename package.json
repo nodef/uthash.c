@@ -1,28 +1,27 @@
 {
-  "description": "C macros for hash tables and more",
-
+  "name": "uthash.c",
+  "version": "2.3.0",
+  "description": "C macros for hash tables and more; Troy D. Hanson (2005).",
   "keywords": [
+    "c",
+    "library",
     "array",
     "data",
     "hash",
+    "table",
     "list",
     "macro",
     "string",
     "structure",
     "uthash"
   ],
-
-  "name": "uthash",
-  "repo": "troydhanson/uthash",
-
-  "src": [
-    "src/utarray.h",
-    "src/uthash.h",
-    "src/utlist.h",
-    "src/utringbuffer.h",
-    "src/utstack.h",
-    "src/utstring.h"
-  ],
-
-  "version": "2.3.0"
+  "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/uthash.c.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/uthash.c/issues"
+  },
+  "homepage": "https://github.com/nodef/uthash.c#readme"
 }
